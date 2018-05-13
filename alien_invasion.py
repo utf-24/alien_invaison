@@ -5,8 +5,8 @@ import pygame
 def run_game():
     #初始化游戏并创建一个屏幕对象
     pygame.init()
-    screen = pygame.display.set_mode((1200,800))
-    pygame.display.set_capton("外星人入侵")
+    screen = pygame.display.set_mode((1200,600))
+    pygame.display.set_caption("外星人入侵")
 
     #开始游戏的主循环
     while True:
